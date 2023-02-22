@@ -1,0 +1,110 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background: #f6f6f6;
+  }
+
+.bg-gradient{
+    height: 104px;
+    background: #233c7d
+}
+
+.project-header{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+
+.showTimer{
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+
+
+
+
+body {
+  background-color: #eee
+}
+
+label.radio {
+  cursor: pointer
+}
+
+label.radio input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  pointer-events: none
+}
+
+label.radio span {
+  padding: 6px 10px;;
+  border: 1px solid red;
+  display: inline-block;
+  color: red;
+  text-align: center;
+  border-radius: 3px;
+  margin-top: 7px;
+}
+
+label.radio input:checked+span {
+  border-color: red;
+  background-color: red;
+  color: #fff
+}
+
+.ans {
+  margin-left: 36px !important
+}
+
+.btn:focus {
+  outline: 0 !important;
+  box-shadow: none !important
+}
+
+.btn:active {
+  outline: 0 !important;
+  box-shadow: none !important
+}
+
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+
+.timercounter{
+  text-align: right;
+    float: right;
+    margin-right: 11px;
+}
+.resultSection{
+  border: solid;
+  margin: 10px;
+}
+.scoreDiv{
+  margin: 15px;
+}
+.labelresult{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.CircularProgressbar {
+    height: 200px !important;
+    margin: 10px !important;
+}
